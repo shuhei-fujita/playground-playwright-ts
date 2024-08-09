@@ -1,0 +1,14 @@
+{
+  "name": "playground-playwright-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shuhei-fujita <syuheifujita0117@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.1.0"
+  },
+  "scripts": {
+    "test": "playwright test"
+  }
+}
