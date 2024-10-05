@@ -10,6 +10,8 @@
   },
   "scripts": {
     "test": "playwright test",
-    "test:ui": "playwright test --ui"
+    "test:ui": "playwright test --ui",
+    "test:vrt:update": "playwright test --update-snapshots",
+    "test:codegen": "npx playwright codegen"
   }
 }
